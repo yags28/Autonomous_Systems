@@ -1,0 +1,29 @@
+[0.591s] Invoking command in '/home/connor/autonomous_systems/lab3_ws/build/task_4': PYTHONPATH=/home/connor/autonomous_systems/lab3_ws/build/task_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/connor/autonomous_systems/lab3_ws/install/task_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/connor/autonomous_systems/lab3_ws/build/task_4/build --no-deps symlink_data
+[0.868s] running develop
+[1.041s] running egg_info
+[1.041s] creating task_4.egg-info
+[1.041s] writing task_4.egg-info/PKG-INFO
+[1.041s] writing dependency_links to task_4.egg-info/dependency_links.txt
+[1.042s] writing entry points to task_4.egg-info/entry_points.txt
+[1.042s] writing requirements to task_4.egg-info/requires.txt
+[1.042s] writing top-level names to task_4.egg-info/top_level.txt
+[1.042s] writing manifest file 'task_4.egg-info/SOURCES.txt'
+[1.043s] reading manifest file 'task_4.egg-info/SOURCES.txt'
+[1.043s] writing manifest file 'task_4.egg-info/SOURCES.txt'
+[1.045s] running build_ext
+[1.045s] Creating /home/connor/autonomous_systems/lab3_ws/install/task_4/lib/python3.10/site-packages/task-4.egg-link (link to .)
+[1.046s] Installing auto_navigator script to /home/connor/autonomous_systems/lab3_ws/install/task_4/lib/task_4
+[1.046s] 
+[1.046s] Installed /home/connor/autonomous_systems/lab3_ws/build/task_4
+[1.046s] running symlink_data
+[1.047s] creating /home/connor/autonomous_systems/lab3_ws/install/task_4/share/ament_index
+[1.047s] creating /home/connor/autonomous_systems/lab3_ws/install/task_4/share/ament_index/resource_index
+[1.047s] creating /home/connor/autonomous_systems/lab3_ws/install/task_4/share/ament_index/resource_index/packages
+[1.047s] symbolically linking /home/connor/autonomous_systems/lab3_ws/build/task_4/resource/task_4 -> /home/connor/autonomous_systems/lab3_ws/install/task_4/share/ament_index/resource_index/packages
+[1.047s] symbolically linking /home/connor/autonomous_systems/lab3_ws/build/task_4/package.xml -> /home/connor/autonomous_systems/lab3_ws/install/task_4/share/task_4
+[1.047s] creating /home/connor/autonomous_systems/lab3_ws/install/task_4/share/task_4/launch
+[1.047s] symbolically linking /home/connor/autonomous_systems/lab3_ws/build/task_4/launch/gen_sync_map_launch.py -> /home/connor/autonomous_systems/lab3_ws/install/task_4/share/task_4/launch
+[1.047s] creating /home/connor/autonomous_systems/lab3_ws/install/task_4/share/task_4/maps
+[1.047s] symbolically linking /home/connor/autonomous_systems/lab3_ws/build/task_4/maps/classroom_map.yaml -> /home/connor/autonomous_systems/lab3_ws/install/task_4/share/task_4/maps
+[1.047s] symbolically linking /home/connor/autonomous_systems/lab3_ws/build/task_4/maps/classroom_map.pgm -> /home/connor/autonomous_systems/lab3_ws/install/task_4/share/task_4/maps
+[1.077s] Invoked command in '/home/connor/autonomous_systems/lab3_ws/build/task_4' returned '0': PYTHONPATH=/home/connor/autonomous_systems/lab3_ws/build/task_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/connor/autonomous_systems/lab3_ws/install/task_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/connor/autonomous_systems/lab3_ws/build/task_4/build --no-deps symlink_data
