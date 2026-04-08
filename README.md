@@ -73,11 +73,11 @@ ROS 2 labs and final project from an Autonomous Systems course. All packages are
 
 ---
 
-## Final Project — Autonomous Navigation in Gazebo House World
+## Final Project — Autonomous Navigation without NAV2 in Gazebo House World
 
 **Location:** `Final_Project/turtlebot3_gazebo/`
 
-A full autonomous navigation stack for a TurtleBot3 Waffle in a simulated Gazebo house environment.
+A full autonomous navigation stack without using NAV2 for a TurtleBot3 Waffle in a simulated Gazebo house environment.
 
 ### Launch Commands
 ```bash
