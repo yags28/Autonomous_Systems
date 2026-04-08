@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (-) JobUnselected: {'identifier': 'task_1'}
+[0.000228] (-) JobUnselected: {'identifier': 'task_2'}
+[0.000258] (-) JobUnselected: {'identifier': 'task_2_interfaces'}
+[0.000286] (task_3) JobQueued: {'identifier': 'task_3', 'dependencies': OrderedDict()}
+[0.000312] (task_3) JobStarted: {'identifier': 'task_3'}
+[0.098077] (-) TimerEvent: {}
+[0.198325] (-) TimerEvent: {}
+[0.298562] (-) TimerEvent: {}
+[0.398824] (-) TimerEvent: {}
+[0.499114] (-) TimerEvent: {}
+[0.599375] (-) TimerEvent: {}
+[0.699598] (-) TimerEvent: {}
+[0.799830] (-) TimerEvent: {}
+[0.900055] (-) TimerEvent: {}
+[1.000244] (-) TimerEvent: {}
+[1.053417] (task_3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task_3', 'build', '--build-base', '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3/build', 'install', '--record', '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/src/task_3', 'env': {'MODULEPATH_PACKAGE': '/package/modulefiles/ecn', 'LMOD_DIR': '/usr/share/lmod/lmod/libexec/', 'USER': 'ydawanka', 'LMOD_PACKAGE_PATH': '/etc/lmod', 'LMOD_COLORIZE': 'yes', 'ROS_PACKAGE_PATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2_interfaces/share', 'XDG_SESSION_TYPE': 'x11', 'LMOD_PKG': '/usr/share/lmod/lmod', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/min/a/ydawanka', 'OLDPWD': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1543035', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2211875/bus', 'COLORTERM': 'truecolor', 'LMOD_sys': 'Linux', 'COLCON_PREFIX_PATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ydawanka', 'LMOD_AVAIL_STYLE': 'system:<grouped>', 'SUMO_HOME': '/usr/share/sumo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2_interfaces/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ydawanka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:.', 'SESSION_MANAGER': 'local/beasleylnx14.ecn.purdue.edu:@/tmp/.ICE-unix/1542996,unix/beasleylnx14.ecn.purdue.edu:/tmp/.ICE-unix/1542996', 'LMOD_PREPEND_BLOCK': 'normal', 'LMOD_FULL_SETTARG_SUPPORT': 'no', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/92fa969c_3940_4e42_a485_c0c1a1699fb9', 'XDG_RUNTIME_DIR': '/run/user/2211875', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/2211875/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/2211875/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_1:/opt/ros/humble:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3', 'SHELL': '/bin/bash', 'MODULEPATH_ROOT': '/usr/modulefiles', 'MODULEPATH_LOCAL': '/etc/modulefiles', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LMOD_CMD': '/usr/share/lmod/lmod/libexec/lmod', 'GPG_AGENT_INFO': '/run/user/2211875/gnupg/S.gpg-agent:0:1', 'BASH_ENV': '/usr/share/lmod/lmod/init/bash', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/python3.10/site-packages:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2/lib/python3.10/site-packages:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2_interfaces/local/lib/python3.10/dist-packages:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/python3.10/site-packages', 'LMOD_arch': 'x86_64', 'COLCON': '1', 'MANPATH': '/usr/share/lmod/lmod/share/man::', 'VTE_VERSION': '6800', 'MODULEPATH': '/etc/lmod/modules:/usr/share/lmod/lmod/modulefiles/:/etc/modulefiles/pkg:/package/modulefiles/ecn/common:/package/modulefiles/ecn/ubuntu', 'MODULESHOME': '/usr/share/lmod/lmod', 'CMAKE_PREFIX_PATH': '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_2_interfaces', 'LMOD_SETTARG_CMD': ':'}, 'shell': False}
+[1.100327] (-) TimerEvent: {}
+[1.200556] (-) TimerEvent: {}
+[1.300779] (-) TimerEvent: {}
+[1.401010] (-) TimerEvent: {}
+[1.445775] (task_3) StdoutLine: {'line': b'running egg_info\n'}
+[1.447676] (task_3) StdoutLine: {'line': b'writing ../../build/task_3/task_3.egg-info/PKG-INFO\n'}
+[1.450219] (task_3) StdoutLine: {'line': b'writing dependency_links to ../../build/task_3/task_3.egg-info/dependency_links.txt\n'}
+[1.452391] (task_3) StdoutLine: {'line': b'writing entry points to ../../build/task_3/task_3.egg-info/entry_points.txt\n'}
+[1.456778] (task_3) StdoutLine: {'line': b'writing requirements to ../../build/task_3/task_3.egg-info/requires.txt\n'}
+[1.462374] (task_3) StdoutLine: {'line': b'writing top-level names to ../../build/task_3/task_3.egg-info/top_level.txt\n'}
+[1.474778] (task_3) StdoutLine: {'line': b"reading manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'\n"}
+[1.477494] (task_3) StdoutLine: {'line': b"writing manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'\n"}
+[1.479431] (task_3) StdoutLine: {'line': b'running build\n'}
+[1.479516] (task_3) StdoutLine: {'line': b'running build_py\n'}
+[1.483015] (task_3) StdoutLine: {'line': b'copying task_3/pid_controller.py -> /home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3/build/lib/task_3\n'}
+[1.487200] (task_3) StdoutLine: {'line': b'running install\n'}
+[1.487496] (task_3) StdoutLine: {'line': b'running install_lib\n'}
+[1.491471] (task_3) StdoutLine: {'line': b'copying /home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3/build/lib/task_3/pid_controller.py -> /home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/python3.10/site-packages/task_3\n'}
+[1.501210] (-) TimerEvent: {}
+[1.521692] (task_3) StdoutLine: {'line': b'byte-compiling /home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/python3.10/site-packages/task_3/pid_controller.py to pid_controller.cpython-310.pyc\n'}
+[1.530337] (task_3) StdoutLine: {'line': b'running install_data\n'}
+[1.534325] (task_3) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.540996] (task_3) StdoutLine: {'line': b"removing '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/python3.10/site-packages/task_3-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.553929] (task_3) StdoutLine: {'line': b'Copying ../../build/task_3/task_3.egg-info to /home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/python3.10/site-packages/task_3-0.0.0-py3.10.egg-info\n'}
+[1.601395] (-) TimerEvent: {}
+[1.602738] (task_3) StdoutLine: {'line': b'running install_scripts\n'}
+[1.659371] (task_3) StdoutLine: {'line': b'Installing pid_speed_controller script to /home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/install/task_3/lib/task_3\n'}
+[1.663371] (task_3) StdoutLine: {'line': b"writing list of installed files to '/home/min/a/ydawanka/ros2_ws/aslab/Lab1/ws1/build/task_3/install.log'\n"}
+[1.687175] (task_3) CommandEnded: {'returncode': 0}
+[1.701451] (-) TimerEvent: {}
+[1.762663] (task_3) JobEnded: {'identifier': 'task_3', 'rc': 0}
+[1.770403] (-) EventReactorShutdown: {}
